@@ -1,0 +1,103 @@
+.background {
+  position: relative;
+  left: 35%;
+  background: #afbec5;
+  width: 420px;
+  height: 650px;
+  padding: 20px;
+  border-radius: 20px;
+ }
+
+.displayValues {
+  background: grey;
+  width: 400px;
+  height: 30px;
+  font-size: 30px;
+  padding: 10px;
+  text-align: right;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.displayEachValue {
+  background: grey;
+  width: 400px;
+  height: 70px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: right;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  word-wrap: break-word;
+}
+
+.square {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+	background: red;
+  border-radius: 30px;
+}
+
+.button-style {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding: 20px 20px 20px 20px;
+}
+
+.operations {
+  position: relative;
+  top: -510px;
+  left: 313px;
+}
+
+.operations .square {
+  display: block;
+  margin-bottom: 2px;
+  background: black;
+}
+.square:hover {
+  background: white;
+}
+
+.squareBot .square:hover {
+  background: white;
+}
+.squareMid .square:hover {
+  background: white;
+}
+.squareTop .square:hover {
+  background: white;
+}
+.squareZero .square:hover {
+  background: white;
+}
+
+.button-style:hover {
+  color: black;
+}
+.functionalButtons .square {
+  margin-bottom: 3px;
+}
+
+.squareTop .square {
+  background: grey;
+  margin-bottom: 3px;
+}
+
+.squareMid .square {
+  background: grey;
+  margin-bottom: 3px;
+}
+
+.squareBot .square {
+  background: grey;
+  margin-bottom: 3px;
+}
+
+.squareZero .square {
+  background: grey;
+}

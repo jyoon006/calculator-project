@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+
+<html>
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/design.css">
+		<script src="js/calculator.js"></script>
+	</head>
+	
+	<body>
+		<div class="background">
+			<div class="displayValues" id="values"></div>
+			<div class="displayEachValue" id="eachValue">0</div>
+
+			<div class="functionalButtons">
+				<div class="square">
+					<div class="button-style" id="C" onclick="clearAllValue()">C</div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="delete" onclick="value('CE')">&#171;</div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="squared" onclick="value('^')">^</div>
+				</div>
+			</div>
+				  
+			<div class="squareTop">
+				<div class="square">
+					<div class="button-style" id="seven" onclick="value(7)">7</div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="eight" onclick="value(8)">8</div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="nine" onclick="value(9)">9</div>
+				</div>
+			</div>
+
+			<div class="squareMid">
+				<div class="square">
+					<div class="button-style" id="four" onclick="value(4)">4</div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="five" onclick="value(5)">5</div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="six" onclick="value(6)">6</div>
+				</div>
+			</div>
+
+			<div class="squareBot">
+				<div class="square">
+					<div class="button-style" id="one" onclick="value(1)">1</div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="two" onclick="value(2)">2</div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="three"  onclick="value(3)">3</div>
+				</div>
+			</div>
+
+			<div class=squareZero>
+				<div class="square">
+					<div class="button-style" id="plusMinus" onclick="value('*')">&plusmn;</div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="zero" onclick="value(0)">0</div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="decimal"  onclick="value('.')">.</div>
+				</div>
+			</div>
+
+
+			<div class="operations">
+				<div class="square">
+					<div class="button-style" id="divide" onclick="value('\xF7')">&divide; </div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="multiply" onclick="value('\xD7')">&times;</div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="minus" onclick="value('-')">-</div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="plus" onclick="value('+')">+</div>
+				</div>
+				<div class="square">
+					<div class="button-style" id="equals" onclick="showValue(result)">=</div>
+				</div>
+			</div>
+		</div>
+					
+	</body>
+
+</html>
